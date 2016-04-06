@@ -1,0 +1,22 @@
+import pymysql
+import urllib.request
+import shutil
+
+
+# connect to MYSQL server
+cnx = pymysql.connect(user='root', password='mysqlpassword', host='localhost', database='stamps')
+cursor = cnx.cursor();
+
+query = ("SELECT my_id, image FROM timbres")
+cursor.execute(query)
+
+# download the images from SQL server into Images_db
+for (my_id, image) in cursor:
+        fd = open("/home/brunoob/StampProject/Images_db/"+str(my_id)+".jpg", 'wb+')
+        filePath = image[1:-1] # To delete additional quotes
+        
+        #fd.write(urllib.request.urlopen(filePath).read())
+        shutil.copyfileobj(urllib.request.urlopen(filePath), fd)
+        
+
+print ('done')

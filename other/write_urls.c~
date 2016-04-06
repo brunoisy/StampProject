@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+	int i=1849;
+	for(i=1849; i<2007; i++){
+		printf("http://colnect.com/fr/stamps/list/country/2640-Belgique/year/%d\n", i);
+	}
+}
+
+

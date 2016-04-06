@@ -1,0 +1,14 @@
+{
+	"sourceUUID": "e728ba90-8bee-4f02-958c-12a528224b00",
+	"inputUrl": "http://catawiki.fr/",
+	"ioUserID": "9e95b2f3-4f52-4e2f-909c-925321cf0c0f",
+	"ioAPIKey":"9e95b2f34f524e2f909c925321cf0c0f43110a51f6edf2e0086c62a487c4a0dc8c70b1f4f241c722a91dd0ad0f74bff8f134adda441c894a8ba12663172b30da727c7317c8b34b23d32aa733c2d2aa95",
+	
+	"table": "stamps",
+	"database": "stamps",
+	"username": "root",
+	"password": "mysqlpassword",
+	"host": "localhost",
+	"port": 3306
+	
+}

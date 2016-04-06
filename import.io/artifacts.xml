@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1437144497487'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='66'>
+    <artifact classifier='osgi.bundle' id='ch.qos.logback.slf4j' version='1.0.0.v20120123-1500'>
+      <properties size='1'>
+        <property name='download.size' value='15083'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jrobotx' version='0.2.0'>
+      <properties size='1'>
+        <property name='download.size' value='16810'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt.gtk.linux.x86_64' version='3.104.0.v20150528-0211'>
+      <properties size='1'>
+        <property name='download.size' value='2629301'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.downloader' version='3.0.1.20150306155554'>
+      <properties size='1'>
+        <property name='download.size' value='23642'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.fasterxml.jackson.core.jackson-annotations' version='2.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='39817'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.sandcrawler' version='1.0.4.20150303123517'>
+      <properties size='1'>
+        <property name='download.size' value='51522'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.org.apache.commons.io' version='1.4.0'>
+      <properties size='1'>
+        <property name='download.size' value='110412'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.publish.utils' version='1.0.0.20150303123517'>
+      <properties size='1'>
+        <property name='download.size' value='15728'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.htmlparser' version='1.0.0.20150330125847'>
+      <properties size='1'>
+        <property name='download.size' value='16277'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='nu.validator.htmlparser' version='1.0.0.20150326135404'>
+      <properties size='1'>
+        <property name='download.size' value='6268615'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.contenttype' version='3.5.0.v20150421-2214'>
+      <properties size='1'>
+        <property name='download.size' value='99189'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.builder.logging' version='1.0.1.20150319160206'>
+      <properties size='1'>
+        <property name='download.size' value='1880'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.scraper.impl.shared' version='4.0.0.20150409150940'>
+      <properties size='1'>
+        <property name='download.size' value='131803'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.h2' version='1.3.172'>
+      <properties size='1'>
+        <property name='download.size' value='1549098'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.rand.datasuggester.v2' version='3.0.5.20150401181712'>
+      <properties size='1'>
+        <property name='download.size' value='303485'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi' version='3.10.100.v20150529-1857'>
+      <properties size='1'>
+        <property name='download.size' value='1304916'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.escape' version='3.0.0.20150306155554'>
+      <properties size='1'>
+        <property name='download.size' value='6866'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.rand.datasuggester' version='1.0.3.20150401181712'>
+      <properties size='1'>
+        <property name='download.size' value='9602'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.servlet' version='3.1.0.v201410161800'>
+      <properties size='1'>
+        <property name='download.size' value='105844'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.app' version='1.3.300.v20150423-1356'>
+      <properties size='1'>
+        <property name='download.size' value='86680'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='osgi.enterprise' version='4.2.0.v201108120515'>
+      <properties size='1'>
+        <property name='download.size' value='159925'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.httpcore' version='4.3.2'>
+      <properties size='1'>
+        <property name='download.size' value='603960'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.map' version='4.0.0.20150306155554'>
+      <properties size='1'>
+        <property name='download.size' value='7095'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.jobs' version='3.7.0.v20150330-2103'>
+      <properties size='1'>
+        <property name='download.size' value='107123'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='projectlombok' version='1.16.0'>
+      <properties size='1'>
+        <property name='download.size' value='1304677'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ch.qos.logback.classic' version='1.0.0.v20111214-2030'>
+      <properties size='1'>
+        <property name='download.size' value='265205'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='joda-time' version='2.7.0'>
+      <properties size='1'>
+        <property name='download.size' value='589289'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.registry' version='3.6.0.v20150318-1503'>
+      <properties size='1'>
+        <property name='download.size' value='182901'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.builder' version='1.0.1.20150717135410'>
+      <properties size='1'>
+        <property name='download.size' value='621965'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.data' version='1.0.0.20150409151956'>
+      <properties size='1'>
+        <property name='download.size' value='96998'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.javacrumbs.json2xml' version='4.1.0'>
+      <properties size='1'>
+        <property name='download.size' value='10130'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.json' version='1.0.3.20150306155554'>
+      <properties size='1'>
+        <property name='download.size' value='15569'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.lang' version='2.4.0'>
+      <properties size='1'>
+        <property name='download.size' value='261809'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin.equinox' version='1.0.600.v20150522-2234'>
+      <properties size='1'>
+        <property name='download.size' value='63562'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.xml' version='4.0.0.20150306155554'>
+      <properties size='1'>
+        <property name='download.size' value='20986'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.binary' version='1.0.0.20150303123517'>
+      <properties size='1'>
+        <property name='download.size' value='23316'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.utils' version='4.0.0.20150306155554'>
+      <properties size='1'>
+        <property name='download.size' value='43096'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.auth' version='4.0.2.20150409173827'>
+      <properties size='1'>
+        <property name='download.size' value='15399'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.jtidy' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='249958'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.fasterxml.jackson.core.jackson-core' version='2.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='229860'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ch.qos.logback.core' version='1.0.0.v20111214-2030'>
+      <properties size='1'>
+        <property name='download.size' value='363218'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.fasterxml.jackson.datatype.jackson-datatype-guava' version='2.2.2'>
+      <properties size='1'>
+        <property name='download.size' value='33583'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.builder.bootstrap' version='1.0.0.20150715115244'>
+      <properties size='1'>
+        <property name='download.size' value='135745'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.regexpgen' version='4.0.0.20150319160206'>
+      <properties size='1'>
+        <property name='download.size' value='62889'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.gtk.linux.x86_64' version='1.1.300.v20150602-1417'>
+      <properties size='1'>
+        <property name='download.size' value='82125'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.inject' version='1.0.0.v20091030'>
+      <properties size='1'>
+        <property name='download.size' value='12288'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.preferences' version='3.5.300.v20150408-1437'>
+      <properties size='1'>
+        <property name='download.size' value='128643'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.importio.builder.feature' version='1.0.0.20150717135410'>
+      <properties size='1'>
+        <property name='download.size' value='3669'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.runtime' version='3.11.0.v20150405-1723'>
+      <properties size='1'>
+        <property name='download.size' value='76888'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.scalarobjectstore.annotations' version='1.0.1.20150331144819'>
+      <properties size='1'>
+        <property name='download.size' value='16704'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.builder.mapping' version='1.0.2.20150326190706'>
+      <properties size='1'>
+        <property name='download.size' value='114479'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.builder.data' version='1.0.0.20150326165316'>
+      <properties size='1'>
+        <property name='download.size' value='40752'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.kusiri.glade.jregex' version='1.0.0.20150306155554'>
+      <properties size='1'>
+        <property name='download.size' value='106685'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.kson' version='1.0.0.20150327123436'>
+      <properties size='1'>
+        <property name='download.size' value='55005'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.slf4j.log4j' version='1.6.4'>
+      <properties size='1'>
+        <property name='download.size' value='20692'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.slf4j.api' version='1.6.4'>
+      <properties size='1'>
+        <property name='download.size' value='26015'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt' version='3.104.0.v20150528-0211'>
+      <properties size='1'>
+        <property name='download.size' value='18533'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher' version='1.3.100.v20150511-1540'>
+      <properties size='1'>
+        <property name='download.size' value='50527'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.guava' version='15.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='2172168'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.servicemix.bundles.saxon' version='9.5.1.1_1'>
+      <properties size='1'>
+        <property name='download.size' value='3880854'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin' version='2.0.200.v20150423-1455'>
+      <properties size='1'>
+        <property name='download.size' value='36365'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.urlpattern' version='1.0.0.20150303123517'>
+      <properties size='1'>
+        <property name='download.size' value='35865'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.common' version='3.7.0.v20150402-1709'>
+      <properties size='1'>
+        <property name='download.size' value='111675'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.fasterxml.jackson.core.jackson-databind' version='2.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='1138921'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.org.apache.xml.resolver' version='1.2.0'>
+      <properties size='1'>
+        <property name='download.size' value='84866'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.importio.systembundle' version='1.0.0.20150306155554'>
+      <properties size='1'>
+        <property name='download.size' value='1823'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1437144497745" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="com.importio.builder.feature" version="1.0.0.20150717135410" url="features/com.importio.builder.feature_1.0.0.20150717135410/">
+		</feature>
+	</site>
+</config>
